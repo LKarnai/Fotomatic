@@ -29,7 +29,6 @@ html {
   max-width: 100%;
 }
 
-/* Universal Styles */
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -383,17 +382,24 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
-    font-size: 1.5rem;
+  #quotes-section .quote {
+    font-size: 1.50rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  #quotes-section .quote {
+    font-size: 1.25rem;
+  }
+}  
+
 
 /* Footer */
 
